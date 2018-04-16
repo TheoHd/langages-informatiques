@@ -1,0 +1,109 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	background: url(code3.jpg);
+	color: white; 
+	font-size: 15px;
+}
+nav{
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none; 
+	background: #2980b9; 
+	width: 380px; 
+	height: 35px;
+	line-height: 35px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bolder; 
+	transition: 1s;
+	border-right: 1px solid #2c3e50;
+	border-bottom: 1px solid #2c3e50;
+	border-top: 1px solid #2c3e50;
+	border-left: 1px solid #2c3e50;
+}
+nav ul li a:hover{
+	background: #2c3e50;
+}
+main{
+	text-align: center;
+}
+div#logo{
+	text-align: center;
+}
+div#espace-central{
+	width: 800px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	margin-left: 25%;
+}
+div#espace-droite{
+	width: 200px;
+	display: inline-block;
+	text-align: left;
+}
+div#texte{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 700px;
+	text-align: justify;
+	font-size: 20px;
+}
+div#icones{
+	text-align:center;
+}
+.clear{
+	clear: both;
+}
+div#link-pdf{
+	border: 1px solid lightgreen;
+	bottom: 0;
+	display: inline-block;
+}
+img.logo{
+	width: 400px;
+	height: 180px;
+	border: 5px groove blue;
+	margin: 25px;
+	background-color: #cccccc;
+	-moz-box-shadow: 5px 10px 3px 1px #2c3e50;
+	-webkit-box-shadow: 5px 10px 3px 1px #2c3e50;
+	filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=10, OffY=15,Color='#2c3e50', Positive='true');
+	box-shadow: 7px 7px 3px 3px #2c3e50;
+}
+img.arrondi{
+	width: 50px;
+	border-radius: 30%;
+	transition: 0.5s;
+	margin: 10px;
+}
+img.arrondi:hover{
+	width: 75px;
+}
+img.portrait{
+	width: 200px;
+}
+footer {
+	width: 90%;
+	height: 90px;
+	margin: auto;
+}
+.iframe{
+	text-align: center;
+}
+a:link {
+	color: white;
+	transition: 1s;
+}
+a:hover {
+	color: lightblue;
+}
